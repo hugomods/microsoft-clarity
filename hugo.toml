@@ -1,0 +1,5 @@
+[params.microsoft_clarity]
+# id = ""
+
+[params.hugopress.modules.microsoft-clarity.hooks.head-end]
+cacheable = true
