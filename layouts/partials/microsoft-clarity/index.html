@@ -1,5 +1,10 @@
 {{- if default true .Params.analyze }}
-  {{- with site.Params.microsoft_clarity.id }}
+  {{- $params := site.Params.services.microsoft_clarity }}
+  {{- with site.Params.microsoft_clarity }}
+    {{- warnf "microsoft_clarity.id parameter is deprecated, use services.microsoft_clarity.id instead." }}
+    {{- $params = . }}
+  {{- end }}
+  {{- with $params.id }}
     <script type="text/javascript">
       (function(c,l,a,r,i,t,y){
           c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
