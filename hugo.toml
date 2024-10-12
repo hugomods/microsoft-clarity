@@ -3,3 +3,4 @@
 
 [params.hugopress.modules.microsoft-clarity.hooks.head-end]
 cacheable = true
+cache_param_key = "analyze"
