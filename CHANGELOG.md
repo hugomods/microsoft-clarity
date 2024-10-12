@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/hugomods/microsoft-clarity/compare/v0.2.0...v0.3.0) (2024-10-12)
+
+
+### Features ✨
+
+* replace `microsoft_clarity.id` with services.microsoft_clarity.id ([60b87a0](https://github.com/hugomods/microsoft-clarity/commit/60b87a0628f7b40f035f7a13fb8ab24be5f5f273))
+
 ## [0.2.0](https://github.com/hugomods/microsoft-clarity/compare/v0.1.0...v0.2.0) (2024-10-12)
 
 
